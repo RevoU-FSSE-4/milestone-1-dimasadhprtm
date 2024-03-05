@@ -26,103 +26,70 @@
 
 ### 4. Jika sudah berhasil, klik **Continue to Dashboard**
 
-![Vercel4](./img/vercel-4.png)
+![Vercel4](./img/vercel4.png)
 
-### 5. Setelah berhasil masuk ke dashboard, silahkan buka github untuk cek konektivitas Github to Vercel
+### 5. Setelah berhasil masuk ke dashboard, silahkan buka github untuk cek konektivitas Github to Vercel. Pada bagian kanan di bawah _About_ akan ada link yang menandakan bahwa Github sudah berhasil deploy ke vercel dan auto deploy jika ada perubahan pada coding
 
-![Vercel5](./img/cloud-5.png)
-
-### 6. Pada bagian kanan di bawah _About_ akan ada link yang menandakan bahwa Github sudah berhasil deploy ke vercel dan auto deploy jika ada perubahan pada coding
-
-![Github1](./img/vercel-5.png)<br><br><br><br>
+![Vercel5](./img/vercel5.png)<br><br><br><br>
 
 # **Langkah membuat Domain di Hostinger**
 
-### 1. Buka website hostinger.com, ketik nama domain yang diinginkan pada kolom **Cek Domain**, lalu pilih nama akhir untuk website kita
+### 1. Buka website hostinger.co.id dan Klik **Log In**. Jika sudah berhasil Log In maka pilih Tab **Domains** dan pilih **Get a New Domain**
 
-![hostinger1](./img/1-hostinger.png)
+![hostinger1](./img/hostinger1.png)
 
-### 2. Jika sudah memasukkan nama domain yang diinginkan, maka dilanjutkan untuk memilih paket, klik **tambah ke cart**
+### 2. Jika sudah memasukkan nama domain yang diinginkan, maka dilanjutkan untuk memilih nama akhir domain, contoh pilih .shop dan klik search. Jika nama domain tersedia maka klik **Buy Now**
 
-![hostinger2](./img/hostinger-1.png)
+![hostinger2](./img/hostinger2.png)
 
-### 3. Dilanjutkan untuk melakukan pembayaran
+### 3. Dilanjutkan untuk pemilihan paket pembayaran. Klik **Choose Payment Method**
 
-![hostinger3](./img/hostinger-2.png)
+![hostinger3](./img/hostinger3.png)
 
-### 4. Pilih jenis pembayaran, sebagai contoh kita akan memilih pembayaran melalui QRIS
+### 4. Pilih jenis pembayaran, sebagai contoh kita akan memilih pembayaran melalui QRIS.
 
-![hostinger4](./img/hostinger-3.png)
+![hostinger4](./img/hostinger4.png)
 
-### 5. Cek kembali detailnya sebelum melakukan pembayaran, jika sudah sesuai maka klik **Lanjutkan dengan QRIS**
+### 5. Jika sudah berhasil melakukan pembayaran maka klik continue dan selanjutnya hubungkan domain dengan DNS menggunakan cloudflare
 
-![hostinger5](./img/5-hostinger.png)
+![hostinger5](./img/hostinger5.png)
 
-### 6. Lanjutkan dengan melakukan scan QR Code
-
-![hostinger6](./img/6-hostinger.png)
-
-### 7. Jika sudah melakukan pembayaran maka akan diarahkan untuk menyelesaikan registrasi domain, silahkan pilih preferensi **Personal** atau **Company** sesuai dengan kebutuhan. Lalu klik **Next Step**
-
-![hostinger7](./img/7-hostinger.png)
-
-### 8. Dilanjutkan mengisi detail kontak seperti :
-
-- Nama lengkap
-- email
-- Alamat lengkap
-- Nomer telepon
-- Klik _**Continue**_
-  ![hostinger8](./img/8-hostinger.png)
-
-### 9. Klik **Skip** di bagian bawah jika tidak ingin menambahkan plan/fitur. Selamat Anda berhasil mendaftarkan nama domain. Selanjutnya hubungkan domain dengan DNS menggunakan cloudflare
-
-![hostinger9](./img/9.1-hostinger.png)<br><br><br><br>
+<br><br><br><br>
 
 # **Connect custom domain and DNS**
 
 ### 1. Buka website **cloudflare.com** lalu pilih **sign up** atau **log in** dengan mengisi email dan password
 
-![cloud1](./img/1-cloudflare.png)
+![cloud1](./img/cloudflare1.png)
 
-### 2. Jika sudah berhasil **sign up** maka dianjutkan tahap berikut :
+### 2. Jika sudah berhasil **sign up** maka pilih **Add Site** button
 
-- tulis nama domain custom yang sudah dibuat sebelumnya (pada website hostinger) pada kolom yang tersedia
-- klik **Continue**
-  ![cloud2](./img/cloud-3.png)
+![cloud2](./img/cloudflare2.png)
 
-### 3. Pada tampilan berikut, pilih kolom **Free** dan klik **Continue**
+### 3. Isi nama domain yang sudah dibuat pada kolom yang tersedia dan klik **Continue**
 
-![cloud3](./img/cloud-4.png)
+![cloud3](./img/cloudflare3.png)
 
-### 4. Jika sudah masuk pada halaman berikut, maka silahkan buka kembali vercel untuk copy beberapa elemen untuk diedit
+### 4. Akan tampil pilihan paket lalu scroll ke bawah dan pilih \*Free** lalu klik **Continue\*\*
 
-![cloud3](./img/cloud-4.1.png)
+![cloud4](./img/cloudlflare4.png)
 
-### 5. Buka halaman vercel dan klik **Domain** di kanan atas
+### 5. Jika sudah tampil halaman berikut maka scroll ke bawah dan klik **Continue**
 
-![cloud4](./img/cloud-5.png)
+![cloud5](./img/cloudflare5.png)
 
-### 6. isi nama domain custom yang sudah dibuat pada kolom yang tersedia dan klik **Add**
+### 6. Selanjutnya copy 2 **Name server** ke website hostinger
 
-![cloud5](./img/cloud-6.png)
+![cloud6](./img/cloudflare6.png)
 
-### 7. Pilih pada bagian atas yang direkomendasikan oleh vercel, lalu klik **Add**
+### 7. Buka kembali webiste Hostinger dan pilih **DNS/Nameservers** di sidebar kiri lalu klik **Change Nameservers**
 
-![cloud6](./img/cloud-7.png)
+![cloud7](./img/cloudflare7.png)
 
-### 8. Jika sudah tampil halaman berikut maka Klik edit untuk copy #A (Type, Name, Value) & #CNAME (Type, Name, Value)
+### 8. Pada menu **Select Nameservers** pilih **Change Nameservers**, lalu paste 2 **Nameservers** dari **Cloudflare** lalu klik **Save**
 
-![cloud7](./img/cloud-8.png)
+![cloud8](./img/cloudflare8.png)
 
-### 9. Buka kembali cloudflare & sesuaikan #A & #CNAME sesuai dengan vercel lalu klik **Continue** (tunggu prosesnya kurang lebih 24 jam)
+### 9. Akan muncul **Pop Up** seperti halaman berikut dan klik **Close**, tunggu kurang lebih 24 jam agar website sudah dapat dipublish
 
-![cloud8](./img/cloud-9.png)
-
-### 10. Buka kembali vercel dan jika sudah ada tanda **Valid Configuration** pada sisi centang biru maka domain custom sudah berhasil dihubungkan dengan DNS. Klik Domain custom yang ada maka akan langsung terhubung ke tampilan website
-
-![cloud8](./img/cloud%209-1.png)
-
-### 11. **CONGRATS**
-
-![cloud9](./img/cloud-10.png)
+![cloud9](./img/cloudflare9.png)
