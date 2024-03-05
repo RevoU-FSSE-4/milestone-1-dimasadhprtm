@@ -72,7 +72,7 @@
 
 ### 4. Akan tampil pilihan paket lalu scroll ke bawah dan pilih \*Free** lalu klik **Continue\*\*
 
-![cloud4](./img/cloudlflare4.png)
+![cloud4](./img/cloudflare4.png)
 
 ### 5. Jika sudah tampil halaman berikut maka scroll ke bawah dan klik **Continue**
 
