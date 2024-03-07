@@ -2,35 +2,43 @@
 
 <br>
 
-## **1. Deploy Github Project to Vercel** [Click Here](#deploy-github-project-to-vercel)
+## **1. Deploy Github Project to Netlify** [Click Here](#deploy-github-project-to-vercel)
 
 ## **2. Langkah Membuat Domain di Hostinger** [Click Here](#langkah-membuat-domain-di-hostinger)
 
 ## **3. Connect custom domain and DNS** [Click Here](#connect-custom-domain-and-dns)
 
-<br><br>
+<br>
 
-# **Deploy Github Project to Vercel**
+### Link Deployment : [Netlify](https://dulcet-sable-378cd3.netlify.app/)
 
-### 1. Buka vercel.com, Klik **Add New** di bagian kanan & pilih Project
+### Link Custom Domain : [Hostinger](https://www.inirumahsakit.shop/)
 
-![Vercel1](./img/vercel1.png)
+<br>
 
-### 2. Dalam kolom search ketik nama project dan klik **import**
+# **Deploy Github Project to Netlify**
 
-![Vercel2](./img/vercel2.png)
+### 1. Buka netlify.com, Klik **Log In** jika sudah pernah sign up sebelumnya, lalu sambungkan Github dengan Netlify
 
-### 3. Klik Deploy di bagian bawah
+![Netlify1](./img/netlify-1.png)
 
-![Vercel3](./img/vercel3.png)
+### 2. Klik **Add New Site** dan pilih **Import an existing project**
 
-### 4. Jika sudah berhasil, klik **Continue to Dashboard**
+![Netlify2](./img/netlify-2.png)
 
-![Vercel4](./img/vercel4.png)
+### 3. Pilih **Deploy with Github**
 
-### 5. Setelah berhasil masuk ke dashboard, silahkan buka github untuk cek konektivitas Github to Vercel. Pada bagian kanan di bawah _About_ akan ada link yang menandakan bahwa Github sudah berhasil deploy ke vercel dan auto deploy jika ada perubahan pada coding
+![Netlify3](./img/netlify-3.png)
 
-![Vercel5](./img/vercel5.png)<br><br><br><br>
+### 4. Pilih Repo yang ada di Github dan pilih project yang akan dideploy
+
+![Netlify4](./img/netlify-4.png)
+
+### 5. Scroll ke bawah dan klik **Deploy**
+
+![Netlify5](./img/netlify-5.png)
+
+<br><br><br><br>
 
 # **Langkah membuat Domain di Hostinger**
 
@@ -78,7 +86,7 @@
 
 ![cloud5](./img/cloudflare5.png)
 
-### 6. Selanjutnya copy 2 **Name server** ke website hostinger
+### 6. Selanjutnya Klik **Continue** di bagian bawah dan copy 2 **Name server** ke website hostinger
 
 ![cloud6](./img/cloudflare6.png)
 
@@ -93,3 +101,23 @@
 ### 9. Akan muncul **Pop Up** seperti halaman berikut dan klik **Close**, tunggu kurang lebih 24 jam agar website sudah dapat dipublish
 
 ![cloud9](./img/cloudflare9.png)
+
+### 10. Jika sudah 24 jam maka cek kembali ke halaman **Cloudflare** klik menu Overview di sidebar kanan dan jika berhasil akan seperti tampilan berikut
+
+![cloud10](./img/cloudflare10.png)
+
+### 11. Jika domain sudah aktif maka kembali buka Netlify dan klik **Set up custom domain** pada nomer 2
+
+![Netlify6](./img/netlify-6.png)
+
+### 12. Pada kolom yang tersedia isi custom domain yang sudah berhasil dibuat lalu klik Verify
+
+![Netlify7](./img/netlify-7.png)
+
+### 13. Masuk ke halaman cloudflare dan klik **DNS** pada sidebar kiri dan klik edit pada kolom CNAME, paste CNAME dari Netlify, scroll ke bawah dan klik Save
+
+![Netlify-8](./img/netlify-8.png)
+
+### 14. Masuk kembali ke Netlify dan refresh page, jika sudah tampil seperti halaman berikut berarti sudah berhasil. CONGRATS!!!
+
+![Netlify-9](./img/netlify-9.png)
